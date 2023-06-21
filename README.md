@@ -8,3 +8,5 @@
 ## todos:
   - fix the API key input method
   - mask image with cv to edit inplace
+
+<img src="https://github.com/sermetc/tiny-E/blob/main/assets/tiny-E.png" width="720" height="500">
