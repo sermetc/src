@@ -1,4 +1,4 @@
-# mini DALL-E
+# tiny DALL-E GUI
 ## minimal Python GUI for DALL-E API
 - write your API key into the image_gen.py file and run the gui.py
 ### requirements:
