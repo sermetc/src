@@ -38,7 +38,6 @@ def pick_images_in_path():
         exit(0)
 
 def create_image(prompt, n=1, size=IMAGE_WIDTH):
-    print(size)
     if prompt == "":
         print("need a prompt")
         exit(0)
