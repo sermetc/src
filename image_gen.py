@@ -9,9 +9,9 @@ import glob
 openai.api_key = "YOUR KEY HERE"
 
 def check_if_exists():
-    folders = glob.glob("../*")
-    if "../dalle-gens" not in folders:
-        os.mkdir("../dalle-gens")
+    folders = glob.glob("./*")
+    if "./dalle-gens" not in folders:
+        os.mkdir("./dalle-gens")
     else:
         print("[OK] DALL-E output folder.")
 
