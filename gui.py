@@ -10,7 +10,7 @@ from io import BytesIO
 class ImageFrame(customtkinter.CTkFrame):
     def __init__(self, master, **kwargs):
         super().__init__(master, **kwargs)
-        self.image = customtkinter.CTkImage(light_image=Image.open("./dalle.png"),size=(500,500))
+        self.image = customtkinter.CTkImage(light_image=Image.open("./assets/dalle.png"),size=(500,500))
         self.image_label = customtkinter.CTkLabel(master=self, image=self.image, text="")
         self.image_label.place(relx=0.5, rely=0.5, anchor=customtkinter.CENTER)
 
